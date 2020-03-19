@@ -1,8 +1,25 @@
 body {
     background-color: #292929;
-    color: blanchedalmond;
+    color: #FFFAF0;
+}
+
+.homepage-article {
+    padding: 5%;
+    border-radius: 10px;
+    border-right: 2px solid #FFFAF0;
+    border-left: 2px solid #FFFAF0;
+}
+
+/* TODO: zmienić svg na bardzo duży PNG */
+.next-button > object, .previous-button > object {
+    width: 400%;
+    fill: #FFFAF0;
 }
 
 .next-button {
     float: right;
+}
+
+.previous-button {
+    float: left;
 }
